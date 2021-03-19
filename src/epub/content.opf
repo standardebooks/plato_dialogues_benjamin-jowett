@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/plato/the-dialogues-of-plato/benjamin-jowett</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/plato/dialogues/benjamin-jowett</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -27,8 +27,8 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
-		<dc:title id="title">The Dialogues of Plato</dc:title>
-		<meta property="file-as" refines="#title">Dialogues of Plato, The</meta>
+		<dc:title id="title">Dialogues</dc:title>
+		<meta property="file-as" refines="#title">Dialogues</meta>
 		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
 		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
@@ -46,8 +46,8 @@
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/plato_the-dialogues-of-plato_benjamin-jowett</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Dialogues</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/plato_dialogues_benjamin-jowett</meta>
 		<dc:creator id="author">Plato</dc:creator>
 		<meta property="file-as" refines="#author">CONTRIBUTOR_SORT</meta>
 		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>

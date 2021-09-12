@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+    <file path="theaetetus.xhtml">
+        <ignore>
+            <code>t-063</code>
+            <reason>Lint wants certain Latin phrases like ad absurdum to be italicized because they're easily confused with English. However, in this case it is preceded by reductio, eliminating the confusion</reason>
+        </ignore>
+        <ignore>
+            <code>t-029</code>
+            <reason>Lint objects to inline lists that look like a letter followed by a period</reason>
+        </ignore>
+    </file>
+</se-lint-ignore>

@@ -1,10 +1,11 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-abbr.era{
+abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
+/* Start poetry/verse css */
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -19,6 +20,17 @@ abbr.era{
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
+
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
+}
+
+/* If eliding within an epigraph, include this additional style: */
+[epub|type~="epigraph"] span.elision{
+	font-style: normal;
+}
+/* End poetry/verse css */
 
 /* Start play & drama css */
 [epub|type~="z3998:drama"] table,

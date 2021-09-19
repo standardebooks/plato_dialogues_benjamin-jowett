@@ -108,6 +108,12 @@
 			<reason>Missing punctuation is also missing in the scans on purpose</reason>
 		</ignore>
 	</file>
+	<file path="statesman.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Lint objects to inline lists that look like a letter followed by a period</reason>
+		</ignore>
+	</file>
 	<file path="symposium.xhtml">
 		<ignore>
 			<code>t-011</code>

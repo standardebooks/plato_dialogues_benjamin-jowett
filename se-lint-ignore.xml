@@ -102,6 +102,12 @@
 			<reason>Temporary ignore until I fill in metadata</reason>
 		</ignore>
 	</file>
+	<file path="philebus.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Lint objects to inline lists that look like a letter followed by a period</reason>
+		</ignore>
+	</file>
 	<file path="protagoras.xhtml">
 		<ignore>
 			<code>t-011</code>

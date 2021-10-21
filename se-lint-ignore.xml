@@ -45,9 +45,11 @@
 			<code>s-033</code>
 			<reason>Temporary ignore until I build the ebook</reason>
 		</ignore>
+	</file>
+	<file path="appendix.xhtml">
 		<ignore>
 			<code>t-063</code>
-			<reason>Lint wants certain Latin phrases like ad absurdum to be italicized because they're easily confused with English. However, in this case it is preceded by reductio, eliminating the confusion</reason>
+			<reason>Lint incorrectly says reductio ad absurdum should be italicized</reason>
 		</ignore>
 	</file>
 	<file path="colophon.xhtml">
@@ -78,6 +80,12 @@
 			<reason>Many endnotes start with lowercase letters due to abbreviations</reason>
 		</ignore>
 	</file>
+	<file path="euthydemus.xhtml">
+		<ignore>
+			<code>t-063</code>
+			<reason>Lint incorrectly says reductio ad absurdum should be italicized</reason>
+		</ignore>
+	</file>
 	<file path="gorgias.xhtml">
 		<ignore>
 			<code>t-057</code>
@@ -94,6 +102,12 @@
 		<ignore>
 			<code>m-036</code>
 			<reason>Temporary ignore until I fill in metadata</reason>
+		</ignore>
+	</file>
+	<file path="parmenides.xhtml">
+		<ignore>
+			<code>t-063</code>
+			<reason>Lint incorrectly says reductio ad absurdum and argumentum ad infinitum should be italicized</reason>
 		</ignore>
 	</file>
 	<file path="preface-*.xhtml">
@@ -114,6 +128,18 @@
 			<reason>Missing punctuation is also missing in the scans on purpose</reason>
 		</ignore>
 	</file>
+	<file path="republic.xhtml">
+		<ignore>
+			<code>t-063</code>
+			<reason>Lint incorrectly says reductio ad absurdum should be italicized</reason>
+		</ignore>
+	</file>
+	<file path="sophist.xhtml">
+		<ignore>
+			<code>t-063</code>
+			<reason>Lint incorrectly says reductio ad absurdum should be italicized</reason>
+		</ignore>
+	</file>
 	<file path="statesman.xhtml">
 		<ignore>
 			<code>t-057</code>
@@ -126,16 +152,20 @@
 			<reason>Missing punctuation is also missing in the scans on purpose</reason>
 		</ignore>
 	</file>
-	<file path="timaeus.xhtml">
-		<ignore>
-			<code>t-043</code>
-			<reason>Revisit this later; unable to figure it out now</reason>
-		</ignore>
-	</file>
 	<file path="theaetetus.xhtml">
 		<ignore>
 			<code>t-029</code>
 			<reason>Lint objects to inline lists that look like a letter followed by a period</reason>
+		</ignore>
+		<ignore>
+			<code>t-063</code>
+			<reason>Lint incorrectly says reductio ad absurdum should be italicized</reason>
+		</ignore>
+	</file>
+	<file path="timaeus.xhtml">
+		<ignore>
+			<code>t-043</code>
+			<reason>Revisit this later; unable to figure it out now</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>

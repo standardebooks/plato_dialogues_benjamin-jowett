@@ -122,11 +122,11 @@ section > header [epub|type~="epigraph"] + *{
 
 /* "Connected" list elements in the Sophist Introduction */
 #sophist ul{
-    list-style-type: none;
-    text-align: center;
+	list-style-type: none;
+	text-align: center;
 }
 
 #sophist li:before{
-    content: "|";
+	content: "|";
 }
 /* End Sophist list CSS */

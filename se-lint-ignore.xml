@@ -46,12 +46,6 @@
 			<reason>Temporary ignore until I build the ebook</reason>
 		</ignore>
 	</file>
-	<file path="appendix.xhtml">
-		<ignore>
-			<code>t-063</code>
-			<reason>Lint incorrectly says reductio ad absurdum should be italicized</reason>
-		</ignore>
-	</file>
 	<file path="colophon.xhtml">
 		<ignore>
 			<code>m-036</code>
@@ -72,18 +66,8 @@
 			<reason>We actually do have matching quotation marks</reason>
 		</ignore>
 		<ignore>
-			<code>t-019</code>
-			<reason>The Greek word is not a complete clause; lint is mistaken because of the preceding abbreviation</reason>
-		</ignore>
-		<ignore>
 			<code>t-057</code>
 			<reason>Many endnotes start with lowercase letters due to abbreviations</reason>
-		</ignore>
-	</file>
-	<file path="euthydemus.xhtml">
-		<ignore>
-			<code>t-063</code>
-			<reason>Lint incorrectly says reductio ad absurdum should be italicized</reason>
 		</ignore>
 	</file>
 	<file path="gorgias.xhtml">
@@ -128,18 +112,6 @@
 			<reason>Missing punctuation is also missing in the scans on purpose</reason>
 		</ignore>
 	</file>
-	<file path="republic.xhtml">
-		<ignore>
-			<code>t-063</code>
-			<reason>Lint incorrectly says reductio ad absurdum should be italicized</reason>
-		</ignore>
-	</file>
-	<file path="sophist.xhtml">
-		<ignore>
-			<code>t-063</code>
-			<reason>Lint incorrectly says reductio ad absurdum should be italicized</reason>
-		</ignore>
-	</file>
 	<file path="statesman.xhtml">
 		<ignore>
 			<code>t-057</code>
@@ -156,10 +128,6 @@
 		<ignore>
 			<code>t-029</code>
 			<reason>Lint objects to inline lists that look like a letter followed by a period</reason>
-		</ignore>
-		<ignore>
-			<code>t-063</code>
-			<reason>Lint incorrectly says reductio ad absurdum should be italicized</reason>
 		</ignore>
 	</file>
 	<file path="timaeus.xhtml">

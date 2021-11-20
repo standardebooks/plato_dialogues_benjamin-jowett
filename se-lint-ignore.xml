@@ -84,12 +84,6 @@
 			<reason>Temporary ignore until I fill in metadata</reason>
 		</ignore>
 	</file>
-	<file path="parmenides.xhtml">
-		<ignore>
-			<code>t-063</code>
-			<reason>Lint incorrectly says reductio ad absurdum and argumentum ad infinitum should be italicized</reason>
-		</ignore>
-	</file>
 	<file path="preface-*.xhtml">
 		<ignore>
 			<code>m-031</code>

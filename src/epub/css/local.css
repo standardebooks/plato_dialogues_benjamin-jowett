@@ -25,11 +25,6 @@ span.elision{
 	margin: .5em;
 	margin-left: 3em;
 }
-
-/* If eliding within an epigraph, include this additional style: */
-[epub|type~="epigraph"] span.elision{
-	font-style: normal;
-}
 /* End poetry/verse css */
 
 /* Start play & drama css */

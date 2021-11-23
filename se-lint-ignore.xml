@@ -61,10 +61,6 @@
 			<code>m-033</code>
 			<reason>Temporary ignore until I build the ebook</reason>
 		</ignore>
-		<ignore>
-			<code>t-057</code>
-			<reason>Many endnotes start with lowercase letters due to abbreviations</reason>
-		</ignore>
 	</file>
 	<file path="gorgias.xhtml">
 		<ignore>

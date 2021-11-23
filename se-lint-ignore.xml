@@ -119,7 +119,7 @@
 	<file path="timaeus.xhtml">
 		<ignore>
 			<code>t-043</code>
-			<reason>Revisit this later; unable to figure it out now</reason>
+			<reason>Lint mistakenly thinks there is dialog and wants punctuation where there doesn't need to be any.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>

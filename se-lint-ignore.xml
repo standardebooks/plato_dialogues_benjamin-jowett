@@ -10,23 +10,7 @@
 			<reason>Temporary ignore until I build the ebook</reason>
 		</ignore>
 		<ignore>
-			<code>m-042</code>
-			<reason>Temporary ignore until I build the ebook</reason>
-		</ignore>
-		<ignore>
-			<code>m-043</code>
-			<reason>Temporary ignore until I build the ebook</reason>
-		</ignore>
-		<ignore>
-			<code>m-044</code>
-			<reason>Temporary ignore until I build the ebook</reason>
-		</ignore>
-		<ignore>
 			<code>m-066</code>
-			<reason>Temporary ignore until I build the ebook</reason>
-		</ignore>
-		<ignore>
-			<code>s-020</code>
 			<reason>Temporary ignore until I build the ebook</reason>
 		</ignore>
 	</file>
@@ -37,10 +21,6 @@
 		</ignore>
 	</file>
 	<file path="*.xhtml">
-		<ignore>
-			<code>m-045</code>
-			<reason>Temporary ignore until I build the ebook</reason>
-		</ignore>
 		<ignore>
 			<code>s-033</code>
 			<reason>Temporary ignore until I build the ebook</reason>

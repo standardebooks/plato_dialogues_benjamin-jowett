@@ -97,6 +97,7 @@
 		<item href="text/euthydemus.xhtml" id="euthydemus.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/euthyphro.xhtml" id="euthyphro.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/gorgias.xhtml" id="gorgias.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/ion.xhtml" id="ion.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/laches.xhtml" id="laches.xhtml" media-type="application/xhtml+xml"/>
@@ -127,6 +128,7 @@
 		<itemref idref="preface-1.xhtml"/>
 		<itemref idref="preface-2.xhtml"/>
 		<itemref idref="preface-3.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="charmides.xhtml"/>
 		<itemref idref="lysis.xhtml"/>
 		<itemref idref="laches.xhtml"/>

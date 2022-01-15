@@ -125,3 +125,10 @@ section > header [epub|type~="epigraph"] + *{
 	content: "|";
 }
 /* End Sophist list CSS */
+
+/* Set apart "narration" in the Apology Introduction */
+#apology [epub|type~="z3998:non-fiction"] p:nth-of-type(15){
+    margin: 1em;
+    text-align: center;
+}
+/* End Apology narration CSS */

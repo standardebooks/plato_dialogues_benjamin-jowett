@@ -138,3 +138,10 @@ section > header [epub|type~="epigraph"] + *{
     text-align: center;
 }
 /* End analogy CSS */
+
+/* Custom CSS for "theses" listed in Gorgias introduction */
+.thesis{
+    margin: 1em;
+    text-align: center;
+}
+/* End thesis CSS */

@@ -13,8 +13,8 @@ abbr[epub|type~="se:era"]{
 
 [epub|type~="z3998:verse"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:verse"] p > span + br{
@@ -44,8 +44,8 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:drama"] td{
-	vertical-align: top;
 	padding: .5em;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
@@ -128,20 +128,20 @@ section > header [epub|type~="epigraph"] + *{
 
 /* Set apart "narration" in the Apology Introduction */
 #apology [epub|type~="z3998:non-fiction"] p:nth-of-type(15){
-    margin: 1em;
-    text-align: center;
+	margin: 1em;
+	text-align: center;
 }
 /* End Apology narration CSS */
 
 /* Analogies have their own CSS */
 .analogy{
-    text-align: center;
+	text-align: center;
 }
 /* End analogy CSS */
 
 /* Custom CSS for "theses" listed in Gorgias introduction */
 .thesis{
-    margin: 1em;
-    text-align: center;
+	margin: 1em;
+	text-align: center;
 }
 /* End thesis CSS */

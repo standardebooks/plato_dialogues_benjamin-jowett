@@ -8,8 +8,8 @@ abbr.era{
 
 section[epub|type~="titlepage"] img{
 	display: block;
-	width: 100%;
 	margin: 3em auto auto auto;
+	width: 100%;
 }
 
 section[epub|type~="colophon"],

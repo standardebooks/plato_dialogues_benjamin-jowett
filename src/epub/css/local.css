@@ -145,3 +145,10 @@ section > header [epub|type~="epigraph"] + *{
 	text-align: center;
 }
 /* End thesis CSS */
+
+/* Custom CSS for fractions in Timaeus introduction */
+.fractions{
+	margin: 1em;
+	text-align: center;
+}
+/* End fractions CSS */

@@ -139,7 +139,7 @@ section > header [epub|type~="epigraph"] + *{
 }
 /* End analogy CSS */
 
-/* Custom CSS for "theses" listed in Gorgias introduction */
+/* Custom CSS for "theses" listed in Gorgias and Parmenides introductions */
 .thesis{
 	margin: 1em;
 	text-align: center;

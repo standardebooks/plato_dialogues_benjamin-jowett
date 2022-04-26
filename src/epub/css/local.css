@@ -115,13 +115,17 @@ section > header [epub|type~="epigraph"] + *{
 }
 /* End epigraphs in section headers */
 
-/* "Connected" list elements in the Sophist Introduction */
-#sophist ul{
+/* "Connected" or "traced" list elements in the Sophist Introduction */
+.tracing{
 	list-style-type: none;
 	text-align: center;
 }
 
-#sophist li:before{
+.tracing li p{
+	text-align: center;
+}
+
+.tracing li:before{
 	content: "|";
 }
 /* End Sophist list CSS */

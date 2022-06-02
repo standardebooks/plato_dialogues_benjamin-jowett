@@ -19,7 +19,6 @@
 		<meta property="a11y:certifiedBy">Standard Ebooks</meta>
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
-		<meta property="schema:accessibilityFeature">alternativeText</meta>
 		<meta property="schema:accessibilityFeature">longDescription</meta>
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
@@ -29,49 +28,189 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Dialogues</dc:title>
 		<meta property="file-as" refines="#title">Dialogues</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
-		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<dc:subject id="subject-1">Classical Literature</dc:subject>
+		<dc:subject id="subject-2">Philosophy, Ancient</dc:subject>
+		<dc:subject id="subject-3">Ethics -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-4">Knowledge, Theory of -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-5">Temperance (Virtue)</dc:subject>
+		<dc:subject id="subject-6">Language and languages -- Philosophy</dc:subject>
+		<dc:subject id="subject-7">Justice -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-8">Dialogues, Greek -- Translations into English</dc:subject>
+		<dc:subject id="subject-9">Wealth -- Moral and ethical aspects</dc:subject>
+		<dc:subject id="subject-10">Virtue</dc:subject>
+		<dc:subject id="subject-11">Logic -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-12">Sophists (Greek philosophy)</dc:subject>
+		<dc:subject id="subject-13">Piety</dc:subject>
+		<dc:subject id="subject-14">Political science -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-15">Poetics -- History -- To 1500</dc:subject>
+		<dc:subject id="subject-16">Aesthetics, Ancient</dc:subject>
+		<dc:subject id="subject-17">Courage</dc:subject>
+		<dc:subject id="subject-18">State, The -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-19">Friendship -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-20">Rhetoric, Ancient</dc:subject>
+		<dc:subject id="subject-21">Rhetoric -- Philosophy</dc:subject>
+		<dc:subject id="subject-22">Virtue -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-23">Dialectic</dc:subject>
+		<dc:subject id="subject-24">Reasoning</dc:subject>
+		<dc:subject id="subject-25">Ontology -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-26">Immortality (Philosophy)</dc:subject>
+		<dc:subject id="subject-27">Rhetoric -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-28">Love -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-29">Soul -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-30">Pleasure</dc:subject>
+		<dc:subject id="subject-31">Utopias -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-32">Logic, Ancient</dc:subject>
+		<dc:subject id="subject-33">Ontology</dc:subject>
+		<dc:subject id="subject-34">Methodology</dc:subject>
+		<dc:subject id="subject-35">Meaning (Philosophy)</dc:subject>
+		<dc:subject id="subject-36">Cosmology -- Early works to 1800</dc:subject>
+		<meta property="authority" refines="#subject0">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85026706</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh85100861</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008103325</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008106319</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh85133707</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">sh85074574</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">sh2008122631</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
+		<meta property="term" refines="#subject-8">sh2009123318</meta>
+		<meta property="authority" refines="#subject-9">LCSH</meta>
+		<meta property="term" refines="#subject-9">sh85145832</meta>
+		<meta property="authority" refines="#subject-10">LCSH</meta>
+		<meta property="term" refines="#subject-10">sh85143808</meta>
+		<meta property="authority" refines="#subject-11">LCSH</meta>
+		<meta property="term" refines="#subject-11">sh2008107110</meta>
+		<meta property="authority" refines="#subject-12">LCSH</meta>
+		<meta property="term" refines="#subject-12">sh85125278</meta>
+		<meta property="authority" refines="#subject-13">LCSH</meta>
+		<meta property="term" refines="#subject-13">sh85102064</meta>
+		<meta property="authority" refines="#subject-14">LCSH</meta>
+		<meta property="term" refines="#subject-14">sh85104443</meta>
+		<meta property="authority" refines="#subject-15">LCSH</meta>
+		<meta property="term" refines="#subject-15">sh2008109416</meta>
+		<meta property="authority" refines="#subject-16">LCSH</meta>
+		<meta property="term" refines="#subject-16">sh85001445</meta>
+		<meta property="authority" refines="#subject-17">LCSH</meta>
+		<meta property="term" refines="#subject-17">sh85033527</meta>
+		<meta property="authority" refines="#subject-18">LCSH</meta>
+		<meta property="term" refines="#subject-18">sh2008112231</meta>
+		<meta property="authority" refines="#subject-19">LCSH</meta>
+		<meta property="term" refines="#subject-19">sh2008104168</meta>
+		<meta property="authority" refines="#subject-20">LCSH</meta>
+		<meta property="term" refines="#subject-20">sh85113634</meta>
+		<meta property="authority" refines="#subject-21">LCSH</meta>
+		<meta property="term" refines="#subject-21">sh85113631</meta>
+		<meta property="authority" refines="#subject-22">LCSH</meta>
+		<meta property="term" refines="#subject-22">sh2010117959</meta>
+		<meta property="authority" refines="#subject-23">LCSH</meta>
+		<meta property="term" refines="#subject-23">sh85037521</meta>
+		<meta property="authority" refines="#subject-24">LCSH</meta>
+		<meta property="term" refines="#subject-24">sh85111790</meta>
+		<meta property="authority" refines="#subject-25">LCSH</meta>
+		<meta property="term" refines="#subject-25">sh2010104408</meta>
+		<meta property="authority" refines="#subject-26">LCSH</meta>
+		<meta property="term" refines="#subject-26">sh85064533</meta>
+		<meta property="authority" refines="#subject-27">LCSH</meta>
+		<meta property="term" refines="#subject-27">sh2008110802</meta>
+		<meta property="authority" refines="#subject-28">LCSH</meta>
+		<meta property="term" refines="#subject-28">sh2008107123</meta>
+		<meta property="authority" refines="#subject-29">LCSH</meta>
+		<meta property="term" refines="#subject-29">sh2008112089</meta>
+		<meta property="authority" refines="#subject-30">LCSH</meta>
+		<meta property="term" refines="#subject-30">sh85103436</meta>
+		<meta property="authority" refines="#subject-31">LCSH</meta>
+		<meta property="term" refines="#subject-31">sh2008113157</meta>
+		<meta property="authority" refines="#subject-32">LCSH</meta>
+		<meta property="term" refines="#subject-32">sh85078107</meta>
+		<meta property="authority" refines="#subject-33">LCSH</meta>
+		<meta property="term" refines="#subject-33">sh85094833</meta>
+		<meta property="authority" refines="#subject-34">LCSH</meta>
+		<meta property="term" refines="#subject-34">sh85084414</meta>
+		<meta property="authority" refines="#subject-35">LCSH</meta>
+		<meta property="term" refines="#subject-35">sh85082692</meta>
+		<meta property="authority" refines="#subject-36">LCSH</meta>
+		<meta property="term" refines="#subject-36">sh2008101799</meta>
+		<meta property="se:subject">Philosophy</meta>
+		<dc:description id="description">A collection of Plato’s dialogues.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;q&gt;The safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to &lt;a href="https://standardebooks.org/ebooks/plato"&gt;Plato&lt;/a&gt;.&lt;/q&gt;
+				&lt;cite&gt;—Alfred North Whitehead&lt;/cite&gt;&lt;/p&gt;
+			&lt;p&gt;It is hard to overstate Plato's influence. As the first philosopher whose works survived to the present day, Plato's writings and ideas are often characterized as the starting point of Western philosophy. Nor was his influence confined to the modern form of philosophy - Plato also affected political, religious, and spiritual thinkers, including early Christian theologians.&lt;/p&gt;
+			&lt;p&gt;Plato's works are written as dramatic dialogues. His focus is often on following the argument itself - the &lt;em&gt;dialectic&lt;/em&gt; - rather than working toward a specific conclusion. His mentor, Socrates, is frequently the principal speaker, but scholars still debate whether Plato was expressing Socrates' views or merely using Socrates as a mouthpiece for his own ideas.&lt;/p&gt;
+			&lt;p&gt;Benjamin Jowett's translation of Plato includes the vast majority of Plato's genuine writings, commentary, and an appendix with selected spurious dialogues.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://www.gutenberg.org/ebooks/1656</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1580</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1616</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1571</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1657</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1681</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1598</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1642</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1672</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1635</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1584</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1750</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1673</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1579</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1682</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1643</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1687</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1658</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1636</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1744</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1591</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1497</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1735</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1738</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1600</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1726</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1572</dc:source>
+		<dc:source>https://archive.org/details/b24750189_0001</dc:source>
+		<dc:source>https://archive.org/details/b24750189_0002</dc:source>
+		<dc:source>https://archive.org/details/b24750189_0003</dc:source>
+		<dc:source>https://archive.org/details/b24750189_0004</dc:source>
+		<dc:source>https://archive.org/details/b24750189_0005</dc:source>
+		<dc:source>https://oll.libertyfund.org/title/plato-the-dialogues-of-plato-in-5-vols-jowett-ed</dc:source>
+		<meta property="se:production-notes">Some dialogues use a true dramatic structure, like other Standard Ebooks plays. Others are written in a narrative style and only use occasional italics to mark a change in speaker. The various numerical cross references are Stephanus numbering, which can be used to identify a specific section of each dialogue. The cross references are linked as close as possible within the limitations of ebooks, using an online reference to check the section each Stephanus number points to.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Dialogues</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Plato</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/plato_dialogues_benjamin-jowett</meta>
 		<dc:creator id="author">Plato</dc:creator>
-		<meta property="file-as" refines="#author">CONTRIBUTOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Plato</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Plato</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79139459</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Benjamin Jowett</dc:contributor>
 		<meta property="file-as" refines="#translator">Jowett, Benjamin</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Benjamin_Jowett</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">https://id.loc.gov/authorities/names/n50062804</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">wac</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">Jean Delville</dc:contributor>
+		<meta property="file-as" refines="#artist">Delville, Jean</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jean_Delville</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n79060295</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Sue Asscher</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Asscher, Sue</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Jacob Heybey</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Heybey, Jacob</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -154,8 +293,8 @@
 		<itemref idref="philebus.xhtml"/>
 		<itemref idref="laws.xhtml"/>
 		<itemref idref="appendix.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
-		<itemref idref="endnotes.xhtml"/>
 	</spine>
 </package>

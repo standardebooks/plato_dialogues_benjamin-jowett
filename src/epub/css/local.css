@@ -116,16 +116,16 @@ section > header [epub|type~="epigraph"] + *{
 /* End epigraphs in section headers */
 
 /* "Connected" or "traced" list elements in the Sophist Introduction */
-.tracing{
+#sophist ul:nth-of-type(1){
 	list-style-type: none;
 	text-align: center;
 }
 
-.tracing li p{
+#sophist ul:nth-of-type(1) li p{
 	text-align: center;
 }
 
-.tracing li:before{
+#sophist ul:nth-of-type(1) li:before{
 	content: "|";
 }
 /* End Sophist list CSS */
@@ -134,12 +134,14 @@ section > header [epub|type~="epigraph"] + *{
 #apology [epub|type~="z3998:non-fiction"] p:nth-of-type(15){
 	margin: 1em;
 	text-align: center;
+    text-indent: 0em;
 }
 /* End Apology narration CSS */
 
 /* Analogies have their own CSS */
 .analogy{
 	text-align: center;
+    text-indent: 0em;
 }
 /* End analogy CSS */
 
@@ -147,6 +149,7 @@ section > header [epub|type~="epigraph"] + *{
 .thesis{
 	margin: 1em;
 	text-align: center;
+    text-indent: 0em;
 }
 /* End thesis CSS */
 
@@ -154,5 +157,6 @@ section > header [epub|type~="epigraph"] + *{
 .fractions{
 	margin: 1em;
 	text-align: center;
+    text-indent: 0em;
 }
 /* End fractions CSS */

@@ -2,8 +2,17 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* This may appear in the colophon */
-abbr.era{
+abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
+}
+
+section[epub|type~="titlepage"] h1,
+section[epub|type~="titlepage"] p,
+section[epub|type~="colophon"] h2,
+section[epub|type~="imprint"] h2{
+	font-size: 0; /* Required for Kobo not to add an extra page to the title */
+	left: -999em;
+	position: absolute; /* Required for Kindle */
 }
 
 section[epub|type~="titlepage"] img{
@@ -23,13 +32,9 @@ section[epub|type~="imprint"] header{
 	margin-top: 3em;
 }
 
-section[epub|type~="colophon"] h2,
-section[epub|type~="imprint"] h2{
-	display: none;
-}
-
 img[epub|type~="z3998:publisher-logo"]{
 	max-width: 25%;
+	width: 220px;
 }
 
 section[epub|type~="colophon"] p,
@@ -81,24 +86,4 @@ section[epub|type~="copyright-page"] blockquote p span{
 
 section[epub|type~="copyright-page"] blockquote br{
 	display: none;
-}
-
-@supports(display: flex){
-	section[epub|type~="imprint"]{
-		align-content: center;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		min-height: calc(98vh - 3em);
-		padding-top: 3em;
-	}
-
-	section[epub|type~="imprint"] header{
-		margin-bottom: 2em;
-		margin-top: 0;
-	}
-
-	img[epub|type~="z3998:publisher-logo"]{
-		max-width: 25vw;
-	}
 }

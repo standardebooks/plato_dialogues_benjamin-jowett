@@ -187,12 +187,12 @@
 		<dc:creator id="author">Plato</dc:creator>
 		<meta property="file-as" refines="#author">Plato</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Plato</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79139459</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79139459</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Benjamin Jowett</dc:contributor>
 		<meta property="file-as" refines="#translator">Jowett, Benjamin</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Benjamin_Jowett</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">https://id.loc.gov/authorities/names/n50062804</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n50062804</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">aui</meta>
@@ -201,7 +201,7 @@
 		<dc:contributor id="artist">Jean Delville</dc:contributor>
 		<meta property="file-as" refines="#artist">Delville, Jean</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jean_Delville</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n79060295</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79060295</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Sue Asscher</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Asscher, Sue</meta>

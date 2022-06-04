@@ -28,13 +28,6 @@ span.elision{
 /* End poetry/verse css */
 
 /* Start play & drama css */
-[epub|type~="z3998:drama"] table,
-table[epub|type~="z3998:drama"]{
-	border-collapse: collapse;
-	margin: 1em auto;
-	width: 100%;
-}
-
 [epub|type~="z3998:drama"] tr:first-child td{
 	padding-top: 0;
 }
@@ -68,7 +61,6 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
 i [epub|type~="z3998:persona"]{
 	font-style: normal;
 }
@@ -86,34 +78,29 @@ i [epub|type~="z3998:persona"]{
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
-
-section[epub|type~="z3998:scene"] > p{
-	margin: 1em auto;
-	width: 75%;
-}
 /* End play & drama css */
 
-/* Epigraphs in section headers */
-article > header [epub|type~="epigraph"],
-section > header [epub|type~="epigraph"]{
-	display: inline-block;
-	margin: auto;
-	max-width: 80%;
-	text-align: initial;
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
 }
 
-article > header [epub|type~="epigraph"] + *,
-section > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
+[epub|type~="epigraph"] i{
+	font-style: normal;
 }
 
-@supports(display: table){
-	article > header [epub|type~="epigraph"],
-	section > header [epub|type~="epigraph"]{
-		display: table;
-	}
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
 }
-/* End epigraphs in section headers */
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+/* End all epigraphs */
 
 /* "Connected" or "traced" list elements in the Sophist Introduction */
 #sophist ul:nth-of-type(1){

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="protagoras.xhtml">
+		<ignore>
+			<code>t-011</code>
+			<reason>The blockquote is part of the surrounding sentence, so no punctuation needed.</reason>
+		</ignore>
+	</file>
+	<file path="symposium.xhtml">
+		<ignore>
+			<code>t-011</code>
+			<reason>The blockquote is part of the surrounding sentence, so no punctuation needed.</reason>
+		</ignore>
+	</file>
+	<file path="parmenides.xhtml">
+		<ignore>
+			<code>t-013</code>
+			<reason>Roman numerals are numbers for a list, so the period after the numeral is correct.</reason>
+		</ignore>
+	</file>
+	<file path="theaetetus.xhtml">
+		<ignore>
+			<code>t-029</code>
+			<reason>Lowercase letters are ordering paragraphs, so the period after the letter is correct.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>

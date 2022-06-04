@@ -28,6 +28,12 @@ span.elision{
 /* End poetry/verse css */
 
 /* Start play & drama css */
+[epub|type~="z3998:drama"] table{
+	border-collapse: collapse;
+	margin: 1em auto;
+	width: 100%;
+}
+
 [epub|type~="z3998:drama"] tr:first-child td{
 	padding-top: 0;
 }

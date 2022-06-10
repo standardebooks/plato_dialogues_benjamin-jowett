@@ -232,6 +232,7 @@
 		<item href="text/cratylus.xhtml" id="cratylus.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/critias.xhtml" id="critias.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/crito.xhtml" id="crito.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/euthydemus.xhtml" id="euthydemus.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/euthyphro.xhtml" id="euthyphro.xhtml" media-type="application/xhtml+xml"/>
@@ -264,6 +265,7 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="dedication.xhtml"/>
 		<itemref idref="preface-1.xhtml"/>
 		<itemref idref="preface-2.xhtml"/>
 		<itemref idref="preface-3.xhtml"/>

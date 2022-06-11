@@ -209,6 +209,7 @@
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
 		<dc:contributor id="producer-1">Jacob Heybey</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Heybey, Jacob</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>

@@ -146,38 +146,38 @@
 			&lt;p&gt;Benjamin Jowett’s translation of Plato includes the vast majority of Plato’s genuine writings, commentary, and an appendix with selected spurious dialogues.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
-		<dc:source>https://www.gutenberg.org/ebooks/1656</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1580</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1616</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1571</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1657</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1681</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1598</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1642</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1672</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1635</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1584</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1750</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1673</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1579</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1682</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1643</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1687</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1658</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1636</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1744</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1591</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1497</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1735</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1738</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1600</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1726</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/1572</dc:source>
-		<dc:source>https://archive.org/details/b24750189_0001</dc:source>
-		<dc:source>https://archive.org/details/b24750189_0002</dc:source>
-		<dc:source>https://archive.org/details/b24750189_0003</dc:source>
-		<dc:source>https://archive.org/details/b24750189_0004</dc:source>
-		<dc:source>https://archive.org/details/b24750189_0005</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1656<!-- Apology --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1580<!-- Charmides --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1616<!-- Cratylus --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1571<!-- Critias --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1657<!-- Crito --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1681<!-- Eryxias--></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1598<!-- Euthydemus --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1642<!-- Euthyphro --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1672<!-- Gorgias --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1635<!-- Ion --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1584<!-- Laches--></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1750<!-- Laws --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1673<!-- Lesser Hippias --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1579<!-- Lysis --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1682<!-- Menexenus --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1643<!-- Meno --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1687<!-- Parmenides --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1658<!-- Phaedo --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1636<!-- Phaedrus --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1744<!-- Philebus --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1591<!-- Protagoras --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1497<!-- Republic --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1735<!-- Sophist --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1738<!-- Statesman --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1600<!-- Symposium --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1726<!-- Theaetetus --></dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1572<!-- Timaeus --></dc:source>
+		<dc:source>https://archive.org/details/b24750189_0001<!-- Charmides, Lysis, Laches, Protagoras, Euthydemus, Phaedrus, Ion, Symposium --></dc:source>
+		<dc:source>https://archive.org/details/b24750189_0002<!-- Meno, Euthyphro, Apology, Crito, Phaedo, Gorgias, Lesser Hippias, First Alcibiades, Menexenus, Second Alcibiades, Eryxias --></dc:source>
+		<dc:source>https://archive.org/details/b24750189_0003<!-- Republic, Timaeus, Critias --></dc:source>
+		<dc:source>https://archive.org/details/b24750189_0004<!-- Parmenides, Theaetetus, Sophist, Statesman, Philebus --></dc:source>
+		<dc:source>https://archive.org/details/b24750189_0005<!-- Laws --></dc:source>
 		<dc:source>https://oll.libertyfund.org/title/plato-the-dialogues-of-plato-in-5-vols-jowett-ed</dc:source>
 		<meta property="se:production-notes">Some dialogues use a true dramatic structure, like other Standard Ebooks plays. Others are written in a narrative style and only use occasional italics to mark a change in speaker. The various numerical cross references are Stephanus numbering, which can be used to identify a specific section of each dialogue. The cross references are linked as close as possible within the limitations of ebooks, using an online reference to check the section each Stephanus number points to.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>

@@ -190,13 +190,49 @@ i [epub|type~="z3998:persona"]{
 }
 /* End analogy CSS */
 
-/* Custom CSS for "theses" listed in Gorgias and Parmenides introductions */
+/* Custom CSS for "theses" listed in Gorgias introduction */
 .thesis{
 	margin: 1em;
 	text-align: center;
 	text-indent: 0;
 }
-/* End thesis CSS */
+/* End theses CSS */
+
+/* Custom CSS for "hypotheses" with specialized indentation listed in the Parmenides introduction */
+.hypothesis{
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.hypothesis > span{
+	display: block;
+	text-indent: 0;
+}
+
+.hypothesis > span + br{
+	display: none;
+}
+
+p span.thesis-indent1{
+	padding-left: 5em;
+	text-indent: -2em;
+}
+
+p span.thesis-indent2{
+	padding-left: 6em;
+	text-indent: -2em;
+}
+
+p span.thesis-indent4{
+	padding-left: 8em;
+	text-indent: -2em;
+}
+
+p span.thesis-indent6{
+	padding-left: 10em;
+	text-indent: -2em;
+}
+/* End hypotheses CSS */
 
 /* Custom CSS for fractions in Timaeus introduction */
 .fractions{

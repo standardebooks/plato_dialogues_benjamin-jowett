@@ -175,8 +175,17 @@ i [epub|type~="z3998:persona"]{
 }
 /* End Sophist list CSS */
 
-/* Set apart "narration" in the Apology Introduction */
-#apology [epub|type~="z3998:non-fiction"] p:nth-of-type(15){
+/* Insert page breaks before the actual text of each Dialogue and the book divisions of the Republic and the Laws */
+section[id*="book"],
+section[id$="text"]{
+	break-before: page;
+}
+/* End page break CSS */
+
+/* Set apart the "narration" in the Apology Introduction, the theses in the Gorgias Introduction, and the fractions in the Timaeus */
+#apology [epub|type~="z3998:non-fiction"] p:nth-of-type(15),
+.thesis,
+.fractions{
 	margin: 1em;
 	text-align: center;
 	text-indent: 0;
@@ -189,14 +198,6 @@ i [epub|type~="z3998:persona"]{
 	text-indent: 0;
 }
 /* End analogy CSS */
-
-/* Custom CSS for "theses" listed in Gorgias introduction */
-.thesis{
-	margin: 1em;
-	text-align: center;
-	text-indent: 0;
-}
-/* End theses CSS */
 
 /* Custom CSS for "hypotheses" with specialized indentation listed in the Parmenides introduction */
 .hypothesis{
@@ -233,11 +234,3 @@ p span.thesis-indent6{
 	text-indent: -2em;
 }
 /* End hypotheses CSS */
-
-/* Custom CSS for fractions in Timaeus introduction */
-.fractions{
-	margin: 1em;
-	text-align: center;
-	text-indent: 0;
-}
-/* End fractions CSS */

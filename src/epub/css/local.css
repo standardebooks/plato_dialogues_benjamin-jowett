@@ -234,3 +234,9 @@ p span.thesis-indent6{
 	text-indent: -2em;
 }
 /* End hypotheses CSS */
+
+/* Add overbars to numbers */
+.overbar{
+    text-decoration: overline;
+}
+/* End overbar CSS */

@@ -161,16 +161,16 @@ i [epub|type~="z3998:persona"]{
 /* End all epigraphs */
 
 /* "Connected" or "traced" list elements in the Sophist Introduction */
-#sophist ul:nth-of-type(1){
+#sophist ul:first-of-type{
 	list-style-type: none;
 	text-align: center;
 }
 
-#sophist ul:nth-of-type(1) li p{
+#sophist ul:first-of-type li p{
 	text-align: center;
 }
 
-#sophist ul:nth-of-type(1) li:before{
+#sophist ul:first-of-type li:before{
 	content: "|";
 }
 /* End Sophist list CSS */

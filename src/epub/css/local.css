@@ -200,37 +200,23 @@ section[id$="text"]{
 /* End analogy CSS */
 
 /* Custom CSS for "hypotheses" with specialized indentation listed in the Parmenides introduction */
-.hypothesis{
-	margin-bottom: 1em;
-	margin-top: 1em;
-}
-
-.hypothesis > span{
-	display: block;
-	text-indent: 0;
-}
-
-.hypothesis > span + br{
-	display: none;
-}
-
-p span.thesis-indent1{
-	padding-left: 5em;
+.hypothesis-i1{
+	margin-left: 5em;
 	text-indent: -2em;
 }
 
-p span.thesis-indent2{
-	padding-left: 6em;
+.hypothesis-i2{
+	margin-left: 6em;
 	text-indent: -2em;
 }
 
-p span.thesis-indent4{
-	padding-left: 8em;
+.hypothesis-i4{
+	margin-left: 8em;
 	text-indent: -2em;
 }
 
-p span.thesis-indent6{
-	padding-left: 10em;
+.hypothesis-i6{
+	margin-left: 10em;
 	text-indent: -2em;
 }
 /* End hypotheses CSS */

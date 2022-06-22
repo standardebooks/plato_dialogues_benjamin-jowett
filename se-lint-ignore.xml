@@ -18,16 +18,16 @@
 			<reason>Roman numerals are numbers for a list, so the period after the numeral is correct.</reason>
 		</ignore>
 	</file>
-	<file path="parmenides.xhtml">
-		<ignore>
-			<code>t-042</code>
-			<reason>The paragraph leads directly into the next section of hypotheses, so no ending punctuation needed.</reason>
-		</ignore>
-	</file>
 	<file path="theaetetus.xhtml">
 		<ignore>
 			<code>t-029</code>
 			<reason>Lowercase letters are ordering paragraphs, so the period after the letter is correct.</reason>
+		</ignore>
+	</file>
+	<file path="timaeus.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Lint misreports a dialog tag when there is no dialog tag on the line.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>

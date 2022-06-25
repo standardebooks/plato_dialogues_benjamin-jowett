@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/plato/dialogues/benjamin-jowett</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-06-25T16:13:45Z</dc:date>
+		<meta property="dcterms:modified">2022-06-25T16:13:45Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -139,9 +139,10 @@
 		<meta property="se:subject">Philosophy</meta>
 		<dc:description id="description">A collection of Plato’s dialogues.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Alfred North Whitehead once said, “he safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to &lt;a href="https://standardebooks.org/ebooks/plato"&gt;Plato&lt;/a&gt;.” It’s hard to overstate Plato’s influence on Western civilization. As the first philosopher whose works survived to the present day, his writings and ideas are often characterized as the starting point of Western philosophy. Nor was his influence confined to the modern form of philosophy—Plato also affected political, religious, and spiritual thinkers, including early Christian theologians.&lt;/p&gt;
+			&lt;p&gt;Alfred North Whitehead once said, “the safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to &lt;a href="https://standardebooks.org/ebooks/plato"&gt;Plato&lt;/a&gt;.”&lt;/p&gt;
+			&lt;p&gt;It’s hard to overstate Plato’s influence on the West’s philosophical heritage and its civilization. As the first philosopher whose works survived to the present day, his writings and ideas are often characterized as the starting point of Western philosophy. Nor was his influence confined to the modern form of philosophy—Plato also affected political, religious, and spiritual thinkers, including early Christian theologians.&lt;/p&gt;
 			&lt;p&gt;Plato’s works are written as dramatic dialogues. His focus is often on following the argument itself—the “dialectic”—rather than working toward a specific conclusion. His mentor, Socrates, is frequently the principal speaker, but scholars still debate whether Plato was expressing Socrates’ views or merely using Socrates as a mouthpiece for his own ideas.&lt;/p&gt;
-			&lt;p&gt;This translation of Plato by Benjamin Jowett includes the vast majority of Plato’s genuine writings, commentary, and an appendix with selected spurious dialogues.&lt;/p&gt;
+			&lt;p&gt;In general, there are forty-five major works attributed to Plato, and all but one are dialogues. Modern scholars agree that roughly half of those were definitely written by him, some of those are definitely forgeries, the rest they’re still unsure about. In this translation Jowett includes the vast majority of works that modern scholars agree are authentic, along with an appendix of selected spurious dialogues. Over time, opinion on which works attributed to Plato were definitely written by him has changed; the only work that modern scholars believe is authentic that Jowett doesn't include in this collection is “Hippias Major.”&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- First Alcibiades -->
@@ -214,9 +215,8 @@
 		<dc:source>https://archive.org/details/b24750189_0005</dc:source>
 		<dc:source>https://oll.libertyfund.org/title/plato-the-dialogues-of-plato-in-5-vols-jowett-ed</dc:source>
 		<meta property="se:production-notes">Some dialogues use a true dramatic structure, like other Standard Ebooks plays. Others are written in a narrative style and only use occasional italics to mark a change in speaker. The various numerical cross references are Stephanus numbering, which can be used to identify a specific section of each dialogue. The cross references are linked as close as possible within the limitations of ebooks, using an online reference to check the section each Stephanus number points to. The OLL transcription was used to supplement the PG transcription since it preserved the Stephanus numbering and various snippets of Greek.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Plato</meta>
+		<meta property="se:word-count">1203627</meta>
+		<meta property="se:reading-ease.flesch">61.19</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/plato_dialogues_benjamin-jowett</meta>
 		<dc:creator id="author">Plato</dc:creator>
 		<meta property="file-as" refines="#author">Plato</meta>

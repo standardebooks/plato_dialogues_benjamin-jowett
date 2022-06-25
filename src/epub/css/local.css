@@ -167,13 +167,28 @@ i [epub|type~="z3998:persona"]{
 }
 /* End all epigraphs */
 
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+section > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
 /* "Connected" or "traced" list elements in the Sophist Introduction */
 #sophist ul:first-of-type{
 	list-style-type: none;
-	text-align: center;
-}
-
-#sophist ul:first-of-type li p{
 	text-align: center;
 }
 
@@ -190,21 +205,15 @@ section[id$="text"]{
 /* End page break CSS */
 
 /* Set apart the "narration" in the Apology Introduction, the theses in the Gorgias Introduction, and the fractions in the Timaeus */
-#apology [epub|type~="z3998:non-fiction"] p:nth-of-type(15),
+#apology-introduction p:nth-of-type(15),
 .thesis,
-.fractions{
+.fractions,
+.analogy{
 	margin: 1em;
 	text-align: center;
 	text-indent: 0;
 }
 /* End Apology narration CSS */
-
-/* Analogies have their own CSS */
-.analogy{
-	text-align: center;
-	text-indent: 0;
-}
-/* End analogy CSS */
 
 /* Custom CSS for "hypotheses" with specialized indentation listed in the Parmenides introduction */
 .hypothesis-i1{

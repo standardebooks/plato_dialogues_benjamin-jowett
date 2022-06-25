@@ -137,6 +137,7 @@
 		<meta property="authority" refines="#subject-36">LCSH</meta>
 		<meta property="term" refines="#subject-36">sh2008101799</meta>
 		<meta property="se:subject">Philosophy</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of Plato’s dialogues.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Alfred North Whitehead once said, “the safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to &lt;a href="https://standardebooks.org/ebooks/plato"&gt;Plato&lt;/a&gt;.”&lt;/p&gt;

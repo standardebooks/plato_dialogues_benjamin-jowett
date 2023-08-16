@@ -26,7 +26,7 @@
 	</file>
 	<file path="timaeus.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-031</code>
 			<reason>Lint misreports a dialog tag when there is no dialog tag on the line.</reason>
 		</ignore>
 	</file>

@@ -219,7 +219,7 @@
 		<dc:source>https://oll.libertyfund.org/title/plato-the-dialogues-of-plato-in-5-vols-jowett-ed</dc:source>
 		<meta property="se:production-notes">Some dialogues use a true dramatic structure, like other Standard Ebooks plays. Others are written in a narrative style and only use occasional italics to mark a change in speaker. The various numerical cross references are Stephanus numbering, which can be used to identify a specific section of each dialogue. The cross references are linked as close as possible within the limitations of ebooks, using an online reference to check the section each Stephanus number points to. The OLL transcription was used to supplement the PG transcription since it preserved the Stephanus numbering and various snippets of Greek.</meta>
 		<meta property="se:word-count">1203638</meta>
-		<meta property="se:reading-ease.flesch">61.19</meta>
+		<meta property="se:reading-ease.flesch">61.29</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/plato_dialogues_benjamin-jowett</meta>
 		<dc:creator id="author">Plato</dc:creator>
 		<meta property="file-as" refines="#author">Plato</meta>

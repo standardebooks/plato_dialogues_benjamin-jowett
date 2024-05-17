@@ -224,6 +224,7 @@
 		<dc:creator id="author">Plato</dc:creator>
 		<meta property="file-as" refines="#author">Plato</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Plato</meta>
+		<meta property="alternate-script" refines="#author">Πλάτων</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79139459</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Benjamin Jowett</dc:contributor>

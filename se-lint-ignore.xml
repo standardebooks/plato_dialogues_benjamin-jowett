@@ -17,6 +17,10 @@
 			<code>t-013</code>
 			<reason>Roman numerals are numbers for a list, so the period after the numeral is correct.</reason>
 		</ignore>
+		<ignore>
+			<code>y-034</code>
+			<reason>Periods are used for unique list numbering.</reason>
+		</ignore>
 	</file>
 	<file path="theaetetus.xhtml">
 		<ignore>

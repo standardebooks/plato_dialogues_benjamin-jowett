@@ -2,26 +2,32 @@
 <se-lint-ignore>
 	<file path="parmenides.xhtml">
 		<ignore code="t-013">
+			<line>298</line>
 			<reason>Roman numerals are numbers for a list, so the period after the numeral is correct.</reason>
 		</ignore>
 	</file>
 	<file path="protagoras.xhtml">
 		<ignore code="t-011">
+			<line>407</line>
 			<reason>The blockquote is part of the surrounding sentence, so no punctuation needed.</reason>
 		</ignore>
 	</file>
 	<file path="symposium.xhtml">
 		<ignore code="t-011">
+			<line>163</line>
+			<line>313</line>
 			<reason>The blockquote is part of the surrounding sentence, so no punctuation needed.</reason>
 		</ignore>
 	</file>
 	<file path="theaetetus.xhtml">
 		<ignore code="t-029">
+			<line>123</line>
 			<reason>Lowercase letters are ordering paragraphs, so the period after the letter is correct.</reason>
 		</ignore>
 	</file>
 	<file path="timaeus.xhtml">
 		<ignore code="y-031">
+			<line>218</line>
 			<reason>Lint misreports a dialog tag when there is no dialog tag on the line.</reason>
 		</ignore>
 	</file>

@@ -221,7 +221,7 @@
 		<dc:source>https://oll.libertyfund.org/title/plato-the-dialogues-of-plato-in-5-vols-jowett-ed</dc:source>
 		<meta property="schema:wordCount">1202725</meta>
 		<meta property="schema:educationalLevel">61.29</meta>
-		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/plato_dialogues_benjamin-jowett" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Plato</dc:creator>

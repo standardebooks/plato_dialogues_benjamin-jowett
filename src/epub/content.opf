@@ -142,7 +142,7 @@
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<dc:abstract>A collection of Plato’s dialogues.</dc:abstract>
+		<meta property="schema:abstract">A collection of Plato’s dialogues.</meta>
 		<dc:description>
 			&lt;p&gt;Alfred North Whitehead once said, “the safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to &lt;a href="https://standardebooks.org/ebooks/plato"&gt;Plato&lt;/a&gt;.”&lt;/p&gt;
 			&lt;p&gt;It’s hard to overstate Plato’s influence on the West’s philosophical heritage and its civilization. As the first philosopher whose works survived to the present day, his writings and ideas are often characterized as the starting point of Western philosophy. Nor was his influence confined to the modern form of philosophy—Plato also affected political, religious, and spiritual thinkers, including early Christian theologians.&lt;/p&gt;

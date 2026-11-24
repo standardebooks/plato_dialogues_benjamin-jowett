@@ -263,3 +263,64 @@ section[id$="text"]{
 		margin-top: 1.5em;
 	}
 }
+
+ol.inline{
+	list-style-position: inside;
+	margin: 0;
+	padding-left: 0;
+}
+
+ol.inline > li{
+	text-indent: 1em;
+}
+
+ol.inline > li > p:first-child{
+	display: inline;
+}
+
+hr + ol.inline > li:first-child{
+	text-indent: 0;
+}
+
+@supports selector(::marker){
+	ol.inline > li::marker{
+		font-variant-numeric: inherit;
+		white-space: normal;
+	}
+}
+
+#cratylus-introduction > ol.inline:nth-of-type(2),
+#cratylus-introduction > ol.inline:nth-of-type(3),
+#cratylus-introduction > ol.inline:nth-of-type(n + 4),
+#laws-introduction > ol.inline:nth-of-type(-n + 3),
+#laws-introduction > ol.inline:nth-of-type(7),
+#laws-introduction > ol.inline:nth-of-type(n + 8),
+#laws-preamble ol.inline,
+#parmenides-introduction ol.inline,
+#philebus-introduction > ol.inline:nth-of-type(-n + 2),
+#philebus-introduction > ol.inline:nth-of-type(5),
+#philebus-introduction > ol.inline:nth-of-type(n + 7),
+#preface-2 > ol.inline:nth-of-type(-n + 3),
+#preface-2 > ol.inline:nth-of-type(4),
+#republic-introduction > ol.inline:nth-of-type(n + 8),
+#sophist-introduction > ol.inline:nth-of-type(1),
+#sophist-introduction > ol.inline:nth-of-type(3),
+#sophist-introduction > ol.inline:nth-of-type(4),
+#sophist-introduction > ol.inline:nth-of-type(5),
+#sophist-introduction > ol.inline:nth-of-type(6),
+#statesman-introduction > ol.inline:nth-of-type(-n + 3),
+#statesman-introduction > ol.inline:nth-of-type(n + 6),
+#theaetetus-introduction > ol.inline:nth-of-type(3),
+#theaetetus-introduction > ol.inline:nth-of-type(4),
+#theaetetus-introduction > ol.inline:nth-of-type(5),
+#theaetetus-introduction > ol.inline:nth-of-type(6),
+#on-the-nature-and-limits-of-psychology ol.inline{
+	list-style-type: upper-roman;
+}
+
+#gorgias-introduction ol.inline,
+#philebus-introduction > ol.inline:nth-of-type(4),
+#statesman-introduction > ol.inline:nth-of-type(4),
+#statesman-introduction > ol.inline:nth-of-type(5){
+	list-style-type: lower-alpha;
+}
